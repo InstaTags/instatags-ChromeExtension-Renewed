@@ -1,0 +1,11 @@
+{
+  "name": "InstaTags",
+  "description": "Tags Intantly With InstaTags",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting", "clipboardWrite", "tabs"],
+  "host_permissions": ["http://localhost:5173/*"],
+  "action": {
+    "default_popup": "./index.html"
+  }
+}
